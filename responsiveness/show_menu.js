@@ -12,9 +12,9 @@ navlinks.forEach(n => n.addEventListener('click', () => {
     navbarmenu.classList.toggle('active')
 }))
 
-let areaCV = document.getElementById('areaCV')
+// let areaCV = document.getElementById('areaCV')
 
-const downloadButton = document.getElementsByClassName('home_profession')[0]
-downloadButton.addEventListener('click', () => {
-    html2pdf(areaCV)
-})
+// const downloadButton = document.getElementsByClassName('home_profession')[0]
+// downloadButton.addEventListener('click', () => {
+//     html2pdf(areaCV)
+// })
